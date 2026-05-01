@@ -69,4 +69,4 @@ Si les versions sont differentes, l'utilisateur voit :
 
 ## Licence
 
-Ce projet est distribue sous licence MIT. Voir le fichier [LICENSE](LICENSE).
+Ce projet est distribue sous licence proprietaire. Voir le fichier [LICENSE](LICENSE).
