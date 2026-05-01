@@ -1,0 +1,5 @@
+*.sh text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+pkg-deb/DEBIAN/postinst text eol=lf
+pkg-deb/usr/bin/quota-social text eol=lf
