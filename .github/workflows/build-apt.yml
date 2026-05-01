@@ -51,8 +51,10 @@ jobs:
 
       - name: Add install page
         run: |
-          cat > apt-repo/index.html <<'EOF'
-          <!doctype html>
+          python - <<'PY'
+          from pathlib import Path
+
+          html = """<!doctype html>
           <html lang="en">
           <head>
             <meta charset="utf-8">
@@ -77,12 +79,15 @@ jobs:
             <h1>Quota Social APT Repository</h1>
             <p>Add the repository on Debian or Ubuntu:</p>
             <pre><code>echo "deb [trusted=yes] https://quota-social.github.io/quota stable main" | sudo tee /etc/apt/sources.list.d/quota-social.list
-sudo apt update
-sudo apt install quota-social</code></pre>
+          sudo apt update
+          sudo apt install quota-social</code></pre>
             <p>The package name is <strong>quota-social</strong>.</p>
           </body>
           </html>
-          EOF
+          """
+
+          Path("apt-repo/index.html").write_text(html, encoding="utf-8")
+          PY
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
@@ -91,4 +96,3 @@ sudo apt install quota-social</code></pre>
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
-
