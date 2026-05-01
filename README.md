@@ -47,17 +47,103 @@ Le binaire genere se trouvera dans `dist/`.
 
 ## Paquet Debian
 
-Si tu veux ensuite distribuer l'application avec `apt`, il faudra :
+La methode la plus simple consiste a :
 
-1. creer un paquet `.deb`
-2. creer un depot APT
-3. publier ce depot sur ton site ou un hebergement statique
+1. generer le binaire Linux
+2. construire un paquet `.deb`
+3. installer le paquet localement ou le publier ensuite dans un depot APT
 
-Pour un premier test, tu peux aussi distribuer directement un `.deb` et l'installer avec :
+### 1. Generer le binaire
 
 ```bash
-sudo apt install ./quota-social.deb
+python3 -m pip install pyinstaller
+python3 -m PyInstaller --onefile --windowed --name quota-social main.py
 ```
+
+Le binaire doit ensuite exister ici :
+
+```text
+dist/quota-social
+```
+
+### 2. Construire le `.deb`
+
+Depuis Linux :
+
+```bash
+chmod +x build-deb.sh
+./build-deb.sh
+```
+
+Le paquet sera genere ici :
+
+```text
+pkg-deb/quota-social_1.0.1_amd64.deb
+```
+
+### 3. Installer le `.deb`
+
+```bash
+sudo apt install ./pkg-deb/quota-social_1.0.1_amd64.deb
+```
+
+### Structure du paquet
+
+- `pkg-deb/DEBIAN/control` : metadonnees du paquet
+- `pkg-deb/DEBIAN/postinst` : script execute apres installation
+- `pkg-deb/usr/bin/quota-social` : lanceur systeme
+- `pkg-deb/usr/share/applications/quota-social.desktop` : raccourci menu
+
+Si tu veux ensuite un vrai :
+
+```bash
+sudo apt install quota-social
+```
+
+il faudra publier ce `.deb` dans un depot APT avec un index `Packages`.
+
+## Depuis Windows avec GitHub
+
+Tu peux tout preparer depuis Windows puis laisser GitHub construire le paquet Linux.
+
+### Ce que tu fais sur Windows
+
+1. Mets tous les fichiers de ce dossier dans ton depot GitHub.
+2. Envoie-les sur la branche `main`.
+3. Active GitHub Pages avec la source `GitHub Actions`.
+4. Attends la fin du workflow GitHub Actions.
+
+### Commandes Windows a lancer
+
+Dans ton depot local :
+
+```powershell
+git add .
+git commit -m "Add Linux Debian and APT packaging"
+git push
+```
+
+### Ce que GitHub fera automatiquement
+
+- construire le binaire Linux sur Ubuntu
+- construire le paquet `.deb`
+- generer le depot APT
+- publier le depot sur GitHub Pages
+
+### Installation finale cote Linux
+
+Quand le workflow est termine, l'utilisateur Linux peut faire :
+
+```bash
+echo "deb [trusted=yes] https://quota-social.github.io/quota stable main" | sudo tee /etc/apt/sources.list.d/quota-social.list
+sudo apt update
+sudo apt install quota-social
+```
+
+### Important
+
+Le nom du paquet est `quota-social`.
+N'utilise pas `quota`, car ce nom existe deja dans Debian et Ubuntu.
 
 ## Mise a jour
 

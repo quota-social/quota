@@ -1,0 +1,14 @@
+#!/bin/sh
+set -e
+
+ASCII_FILE="/opt/quota-social/.ascii"
+
+if [ -f "$ASCII_FILE" ]; then
+  printf "\n"
+  cat "$ASCII_FILE" || true
+  printf "\n"
+fi
+
+echo "Quota Social a ete installe avec succes."
+
+exit 0

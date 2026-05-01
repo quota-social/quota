@@ -1,0 +1,94 @@
+name: Build Debian Package And APT Repository
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y dpkg-dev apt-utils libgtk-3-dev libwebkit2gtk-4.1-dev patchelf
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+          python -m pip install pyinstaller
+
+      - name: Build Linux binary
+        run: |
+          python -m PyInstaller --onefile --windowed --name quota-social main.py
+
+      - name: Build Debian package
+        run: |
+          chmod +x build-deb.sh
+          ./build-deb.sh
+
+      - name: Build APT repository
+        run: |
+          chmod +x scripts/build-apt-repo.sh
+          ./scripts/build-apt-repo.sh
+
+      - name: Add install page
+        run: |
+          cat > apt-repo/index.html <<'EOF'
+          <!doctype html>
+          <html lang="en">
+          <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Quota Social APT Repository</title>
+            <style>
+              body {
+                font-family: Arial, sans-serif;
+                max-width: 900px;
+                margin: 40px auto;
+                padding: 0 16px;
+                line-height: 1.5;
+              }
+              pre {
+                background: #f5f5f5;
+                padding: 12px;
+                overflow-x: auto;
+              }
+            </style>
+          </head>
+          <body>
+            <h1>Quota Social APT Repository</h1>
+            <p>Add the repository on Debian or Ubuntu:</p>
+            <pre><code>echo "deb [trusted=yes] https://quota-social.github.io/quota stable main" | sudo tee /etc/apt/sources.list.d/quota-social.list
+sudo apt update
+sudo apt install quota-social</code></pre>
+            <p>The package name is <strong>quota-social</strong>.</p>
+          </body>
+          </html>
+          EOF
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: apt-repo
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
+

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Quota Social
+Comment=Application de bureau Quota Social
+Exec=/usr/bin/quota-social
+Terminal=false
+Categories=Network;

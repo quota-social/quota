@@ -1,0 +1,10 @@
+Package: quota-social
+Version: 1.0.1
+Section: utils
+Priority: optional
+Architecture: amd64
+Maintainer: Association Lyamors DJ
+Depends: libnotify-bin
+Description: Application de bureau Quota Social pour Linux
+ Application Linux Quota Social basee sur pywebview avec verification
+ de version et notifications de mise a jour.
