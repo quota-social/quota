@@ -1,21 +1,349 @@
-MIT License
+QUOTA SOCIAL
+LICENCE PROPRIETAIRE OFFICIELLE
 
-Copyright (c) 2026 Quota Social
+Titulaire des droits : Association Lyamors DJ
+Version : 1.0
+Date : 1 mai 2026
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+AVERTISSEMENT IMPORTANT
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Le Logiciel Quota Social est une oeuvre proprietaire protegee. Toute
+installation, copie, diffusion, extraction, adaptation, hebergement,
+publication, mise a disposition, execution, analyse, integration, emballage,
+repackaging, revente, location, pret, pret numerique, transmission ou usage
+du Logiciel implique l'acceptation pleine, entiere, definitive et sans reserve
+de la presente licence. Toute personne refusant une seule des clauses
+ci-dessous doit cesser immediatement tout usage du Logiciel et supprimer sans
+delai toutes les copies en sa possession ou sous son controle.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+ARTICLE 1 - IDENTITE DU TITULAIRE
+La presente licence est accordee exclusivement par l'Association Lyamors DJ,
+seule titulaire, beneficiaire ou mandataire des droits d'exploitation, de
+reproduction, d'adaptation, de diffusion, de representation et de protection
+du Logiciel Quota Social.
+
+ARTICLE 2 - OBJET
+La presente licence a pour objet de definir de maniere exhaustive les
+conditions d'acces, d'installation, d'utilisation, de detention, de
+consultation et, plus generalement, de toute relation avec le Logiciel.
+
+ARTICLE 3 - NATURE DE LA LICENCE
+Le Logiciel est concédé sous licence et n'est en aucun cas vendu. Aucun
+transfert de propriete, de copropriete, de droit moral, de droit patrimonial
+ou de droit d'usage autre que ceux expressement prevus n'est consenti.
+
+ARTICLE 4 - ACCEPTATION
+L'acceptation de la presente licence resulte de tout acte de telechargement,
+d'installation, de lancement, de copie, de deploiement, d'hebergement,
+d'analyse, de test, d'integration, de conditionnement ou d'usage du Logiciel.
+
+ARTICLE 5 - DEFINITIONS
+Le terme "Logiciel" designe notamment les sources, binaires, scripts,
+interfaces, graphismes, icones, noms, signes distinctifs, mises a jour,
+correctifs, fichiers de configuration, documentations, packages, archives,
+depots et fichiers de distribution associes a Quota Social.
+
+ARTICLE 6 - CHAMP D'APPLICATION
+La presente licence s'applique a toute version, beta, build, edition, variante
+ou extraction du Logiciel, y compris lorsqu'elle serait incomplete, modifiee
+ou integree a un autre ensemble logiciel ou documentaire.
+
+ARTICLE 7 - RESERVE GENERALE DE DROITS
+Tous les droits non expressement accordes sont strictement reserves a
+l'Association Lyamors DJ.
+
+ARTICLE 8 - PROPRIETE INTELLECTUELLE
+Le Logiciel est protege par le droit d'auteur, le droit des bases de donnees,
+le droit des marques, les secrets d'affaires, les regles sur la concurrence
+deloyale et, plus generalement, toute legislation applicable en matiere de
+propriete intellectuelle.
+
+ARTICLE 9 - DROIT D'USAGE LIMITE
+Sous reserve du respect integral de la presente licence, l'utilisateur
+beneficie d'un droit personnel, precaire, non exclusif, non cessible,
+non transferable et revocable d'utiliser une copie non modifiee du Logiciel
+pour sa destination normale uniquement.
+
+ARTICLE 10 - ABSENCE DE DROIT DE REDISTRIBUTION
+Aucun droit de redistribution, republication, remise a disposition, partage,
+relais, reupload, miroitage ou diffusion publique ou privee n'est accorde.
+
+ARTICLE 11 - ABSENCE DE DROIT DE SOUS-LICENCE
+L'utilisateur ne peut en aucun cas accorder, promettre, suggerer ou laisser
+croire a un tiers qu'il dispose d'un droit de sous-licencier le Logiciel.
+
+ARTICLE 12 - ABSENCE DE DROIT DE REVENTE
+Toute revente, cession onereuse, location, sous-location, pret, abonnement,
+packaging commercial, offre promotionnelle ou monetisation du Logiciel est
+strictement interdite sans autorisation ecrite prealable.
+
+ARTICLE 13 - ABSENCE DE DROIT DE MODIFICATION
+Toute modification, alteration, adaptation, traduction, correction,
+restructuration, refonte, patch non autorise, suppression de fonction ou ajout
+de fonction au Logiciel est strictement interdite.
+
+ARTICLE 14 - ABSENCE DE DROIT DE DERIVATION
+La creation d'oeuvres derivees, de forks, de clones, de variantes, de
+reimplementations ou de produits inspires substantiellement du Logiciel est
+interdite sans accord ecrit prealable.
+
+ARTICLE 15 - INTERDICTION DE RETRO-INGENIERIE
+Il est strictement interdit de desassembler, decompiler, observer, etudier,
+retroconcevoir, instrumenter, tracer ou autrement tenter d'obtenir les sources
+ou le fonctionnement interne du Logiciel, sauf disposition legale imperative
+strictement applicable et uniquement dans ses limites incompressibles.
+
+ARTICLE 16 - INTERDICTION DE CONTOURNEMENT
+Il est interdit de contourner, neutraliser, desactiver, dissimuler ou alterer
+toute mesure technique, mecanisme de securite, controle de version, avertisseur
+ou restriction integree au Logiciel.
+
+ARTICLE 17 - INTERDICTION DE SUPPRESSION DES MENTIONS
+Toute suppression, alteration ou masquage des mentions de paternite,
+d'avertissement, de copyright, de marque, de logo ou d'identification de
+l'Association Lyamors DJ est interdite.
+
+ARTICLE 18 - INTERDICTION DE CONDITIONNEMENT NON AUTORISE
+Il est interdit d'inclure le Logiciel dans un installeur, un depot logiciel,
+un paquet, un conteneur, une image systeme, un bundle, une archive ou une
+plateforme de distribution sans accord ecrit prealable.
+
+ARTICLE 19 - INTERDICTION D'HEBERGEMENT TIERS
+Il est interdit d'heberger le Logiciel sur un site tiers, un depot public,
+une forge logicielle, un CDN, un miroir, une plateforme de telechargement ou
+un service de partage de fichiers sans autorisation.
+
+ARTICLE 20 - INTERDICTION DE PUBLICATION DES SOURCES
+Les sources, fragments de sources, pseudocode, captures, analyses ou extraits
+representatifs du Logiciel ne peuvent etre publies sans autorisation ecrite.
+
+ARTICLE 21 - INTERDICTION DE PUBLICATION DES BINAIRES
+Les executables, bibliotheques, packages, installeurs et archives lies au
+Logiciel ne peuvent etre republies, memes a titre gratuit.
+
+ARTICLE 22 - INTERDICTION D'USAGE CONCURRENT
+Il est interdit d'utiliser le Logiciel, ses idees, son organisation, son
+ergonomie ou son architecture pour developper un produit concurrent ou une
+offre substituable.
+
+ARTICLE 23 - INTERDICTION D'EXPLOITATION COMMERCIALE
+Toute exploitation commerciale directe ou indirecte du Logiciel est prohibee
+sauf autorisation expresse, ecrite et prealable.
+
+ARTICLE 24 - INTERDICTION D'UTILISATION TROMPEUSE
+L'utilisateur s'interdit toute presentation laissant croire qu'il est l'auteur,
+le co-auteur, l'editeur, le distributeur officiel ou le representant du
+Logiciel ou de l'Association Lyamors DJ.
+
+ARTICLE 25 - INTERDICTION D'UTILISATION MALVEILLANTE
+Le Logiciel ne doit pas etre utilise dans un contexte illicite, frauduleux,
+trompeur, diffamatoire, intrusif, malveillant ou attentatoire aux droits
+d'autrui.
+
+ARTICLE 26 - INTERDICTION D'AUTOMATISATION NON AUTORISEE
+Toute utilisation automatisee du Logiciel a grande echelle, y compris par
+scripts, bots, orchestration, scraping ou tests massifs, est interdite sans
+accord ecrit prealable.
+
+ARTICLE 27 - INTERDICTION D'ANALYSE PUBLIQUE
+La publication d'analyses techniques, benchmarks, audits, comparatifs,
+captures de fonctionnement interne ou conclusions de securite portant sur le
+Logiciel est interdite sans autorisation ecrite.
+
+ARTICLE 28 - DEPOTS PUBLICS
+Le depot du Logiciel, total ou partiel, sur GitHub, GitLab, Codeberg, Gitea,
+Bitbucket ou toute autre plateforme publique ou privee est interdit sans
+autorisation expresse de l'Association Lyamors DJ.
+
+ARTICLE 29 - COPIES DE SAUVEGARDE
+Les copies de sauvegarde ne sont autorisees qu'en nombre strictement necessaire
+au fonctionnement legitime de l'utilisateur et demeurent soumises a l'ensemble
+des restrictions de la presente licence.
+
+ARTICLE 30 - UTILISATION PERSONNELLE
+L'utilisation personnelle ne supprime aucune des restrictions prevues par la
+presente licence.
+
+ARTICLE 31 - UTILISATION ASSOCIATIVE OU PROFESSIONNELLE
+Toute utilisation dans un cadre associatif, collectif, professionnel,
+institutionnel ou commercial peut faire l'objet de conditions complementaires
+fixees unilateralement par l'Association Lyamors DJ.
+
+ARTICLE 32 - UTILISATION PEDAGOGIQUE
+L'usage a des fins pedagogiques, de demonstration ou de formation ne confere
+aucun droit supplementaire et reste soumis aux presentes interdictions.
+
+ARTICLE 33 - UTILISATION SUR SERVEUR
+L'installation, l'execution ou l'exposition du Logiciel sur un serveur, un
+poste mutualise, un environnement virtualise ou une infrastructure partagee
+necessite une autorisation ecrite prealable.
+
+ARTICLE 34 - UTILISATION EN ENVIRONNEMENT PUBLIC
+L'utilisation du Logiciel dans un cyberespace, un atelier, un evenement, une
+borne, une salle publique ou un environnement accessible au public peut etre
+restreinte ou interdite par le titulaire des droits.
+
+ARTICLE 35 - MISES A JOUR
+L'Association Lyamors DJ demeure seule juge de l'opportunite, du contenu, de
+la frequence, du mode de diffusion et du maintien ou non des mises a jour.
+
+ARTICLE 36 - FIN DE SUPPORT
+L'Association Lyamors DJ peut, a tout moment et sans preavis, suspendre,
+limiter, reprendre ou cesser tout support, maintenance ou diffusion.
+
+ARTICLE 37 - AUCUNE OBLIGATION DE CORRECTION
+Aucune disposition de la presente licence ne cree une obligation de correction
+de bug, de support utilisateur, de maintenance ou de compatibilite.
+
+ARTICLE 38 - COMPATIBILITE
+L'Association Lyamors DJ ne garantit aucune compatibilite avec un systeme,
+materiel, distribution Linux, dependance, backend graphique ou service tiers.
+
+ARTICLE 39 - DEPENDANCES TIERCES
+L'utilisation de composants tiers dans ou autour du Logiciel n'accorde a
+l'utilisateur aucun droit supplementaire sur la partie proprietaire du
+Logiciel.
+
+ARTICLE 40 - ABSENCE DE LICENCE LIBRE
+Le Logiciel n'est place sous aucune licence libre ou open source. Toute
+assimilation du Logiciel a un logiciel libre, open source, source available ou
+librement redistribuable est formellement exclue.
+
+ARTICLE 41 - NOM ET SIGNE DISTINCTIF
+Les noms "Quota Social" et "Association Lyamors DJ", ainsi que tout logo,
+embleme, graphisme ou charte apparente, demeurent reserves.
+
+ARTICLE 42 - ABSENCE DE DROIT SUR LES MARQUES
+Aucun droit sur les marques, denominations, noms de domaine, logos, visuels ou
+signes distinctifs n'est accorde.
+
+ARTICLE 43 - INTEGRITE DU LOGICIEL
+L'utilisateur s'interdit de porter atteinte a l'integrite, a la coherence, au
+fonctionnement attendu ou a l'image du Logiciel.
+
+ARTICLE 44 - OBLIGATION DE PRUDENCE
+L'utilisateur est seul responsable de la verification prealable de
+l'adequation du Logiciel a ses besoins et a son environnement.
+
+ARTICLE 45 - SECURITE
+L'utilisateur doit prendre toutes mesures raisonnables pour empecher l'acces
+non autorise au Logiciel et a ses copies.
+
+ARTICLE 46 - SIGNALEMENT
+Toute utilisation illicite, tout contournement, toute republication ou toute
+atteinte constatee ou suspectee doit etre signalee sans delai a l'Association
+Lyamors DJ.
+
+ARTICLE 47 - CONTROLES
+L'Association Lyamors DJ se reserve le droit de faire constater toute
+violation, y compris par voie technique, amiable, contractuelle ou judiciaire.
+
+ARTICLE 48 - SANCTIONS CIVILES
+Toute violation expose son auteur a des demandes de cessation, suppression,
+retrait, destruction, publication judiciaire, dommages-interets et
+remboursement des frais engages.
+
+ARTICLE 49 - SANCTIONS COMPLEMENTAIRES
+La violation de la presente licence peut egalement donner lieu a interdiction
+d'usage, suspension d'acces, refus futur de licence ou signalement aux
+plateformes concernees.
+
+ARTICLE 50 - MESURES CONSERVATOIRES
+L'Association Lyamors DJ pourra solliciter toute mesure conservatoire,
+provisoire ou injonctive utile pour faire cesser ou prevenir une atteinte.
+
+ARTICLE 51 - RESILIATION AUTOMATIQUE
+La presente licence est resolue de plein droit, sans mise en demeure
+prealable, des la premiere violation d'une de ses clauses.
+
+ARTICLE 52 - EFFETS DE LA RESILIATION
+En cas de resiliation, l'utilisateur doit cesser immediatement tout usage,
+supprimer toutes les copies, detruire tous supports et retirer toute mise a
+disposition, y compris dans les sauvegardes et environnements derives.
+
+ARTICLE 53 - SURVIE DES CLAUSES
+Les stipulations relatives a la propriete intellectuelle, aux restrictions,
+aux responsabilites, aux sanctions, a la confidentialite et aux recours
+survivent a la fin de la licence.
+
+ARTICLE 54 - CONFIDENTIALITE
+Toute information non publique relative a l'architecture, au fonctionnement,
+aux choix techniques, a la logique ou a la diffusion du Logiciel doit etre
+consideree comme confidentielle.
+
+ARTICLE 55 - ABSENCE DE GARANTIE
+Le Logiciel est fourni en l'etat, sans aucune garantie, expresse, implicite,
+legale ou autre, notamment de conformite, de performance, de securite,
+d'absence d'erreur, de disponibilite, d'aptitude a un besoin particulier ou
+d'absence d'atteinte aux droits de tiers.
+
+ARTICLE 56 - LIMITATION DE RESPONSABILITE
+Dans toute la mesure permise par le droit applicable, l'Association Lyamors DJ
+ne pourra etre tenue responsable d'aucun dommage direct, indirect, accessoire,
+special, immateriel, consecutif ou punitif.
+
+ARTICLE 57 - TYPES DE DOMMAGES EXCLUS
+Sont notamment exclus les pertes d'exploitation, pertes de donnees, pertes de
+revenus, pertes d'economie, pertes de reputation, pertes d'opportunite,
+interruption d'activite et couts de remplacement.
+
+ARTICLE 58 - RESPONSABILITE DE L'UTILISATEUR
+L'utilisateur assume seul les consequences de l'installation, de
+l'utilisation, de l'integration, de la distribution non autorisee ou de la
+modification illicite du Logiciel.
+
+ARTICLE 59 - INDEMNISATION
+L'utilisateur s'engage a garantir, indemniser et relever indemne
+l'Association Lyamors DJ de toute reclamation, condamnation, cout, depense ou
+honoraire resultant d'une violation de la presente licence.
+
+ARTICLE 60 - PREUVE
+Les journaux, constats, captures, archives, metadonnees, signatures, traces
+reseau et elements de preuve raisonnablement collectes pourront etre invoques
+pour etablir une violation.
+
+ARTICLE 61 - TOLERANCE
+Le fait pour l'Association Lyamors DJ de ne pas se prevaloir immediatement
+d'une clause ne vaut ni renonciation ni acceptation d'une violation.
+
+ARTICLE 62 - NULLITE PARTIELLE
+Si une stipulation etait jugee nulle, les autres demeureraient applicables
+dans toute la mesure permise.
+
+ARTICLE 63 - INTEGRALITE
+La presente licence constitue l'integralite de l'accord relatif au Logiciel et
+remplace tout echange, support ou declaration anterieure sur ce sujet.
+
+ARTICLE 64 - ABSENCE DE RELATION SOCIETALE
+La presente licence ne cree aucune association, joint-venture, mandat, agence,
+partenariat, salariat ou representation entre les parties.
+
+ARTICLE 65 - CESSION PAR LE TITULAIRE
+L'Association Lyamors DJ pourra librement transferer, concéder, confier ou
+deleguer tout ou partie de ses droits ou actions relatifs au Logiciel.
+
+ARTICLE 66 - CESSION PAR L'UTILISATEUR
+L'utilisateur ne peut ceder, transmettre, apporter, confier, deleguer ou
+transferer aucun droit attache a la presente licence.
+
+ARTICLE 67 - VERSION FAISANT FOI
+La version de la licence publiee ou fournie par l'Association Lyamors DJ avec
+le Logiciel fait seule foi.
+
+ARTICLE 68 - DEMANDES D'AUTORISATION
+Toute demande de redistribution, d'integration, d'usage public, de reproduction
+ou d'exploitation doit faire l'objet d'un accord ecrit, explicite et prealable
+de l'Association Lyamors DJ.
+
+ARTICLE 69 - INTERPRETATION STRICTE
+Toute ambiguite eventuelle s'interpretera dans le sens le plus protecteur des
+interets patrimoniaux, techniques, economiques et reputatifs de l'Association
+Lyamors DJ.
+
+ARTICLE 70 - RESERVE FINALE
+Tous droits non expressement accordes sont reserves. Toute utilisation non
+autorisee du Logiciel Quota Social expose son auteur a toute action utile,
+amiable ou contentieuse, sans prejudice de tout autre recours.
+
+TOUS DROITS RESERVES
+Association Lyamors DJ
